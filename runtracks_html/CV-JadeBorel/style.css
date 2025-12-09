@@ -1,0 +1,127 @@
+
+.lettre-nom {
+  font-family: "Kapakana", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+  color: #747a65 ;
+  font-size: 4em ;
+}
+
+h1 {
+  color : #747a65;
+  font-size: 2.5em ;
+  text-align: center
+}
+
+h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #747a65 ;
+  font-size: 1.5em ;
+}
+
+h4 {
+  color : #747a65;
+  text-align: center
+}
+
+.fa-solid {
+  font-size: 22px;
+  color: #747a65; /* couleur du logo */
+}
+
+p {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1.5px;
+}
+
+ul {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1.5px;
+}
+
+body {
+  background-color: #eef0e9;
+  margin: 2rem;
+}
+
+
+.photo-cv {
+  width: 150px;
+  height: auto;
+}
+
+.presentation-ligne {
+  display: flex;
+  gap: 1rem;
+  flex: 1 1 100%;
+}
+
+.presentation-ligne article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  height: 350px;
+  box-sizing: border-box;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Photo centrée, arrondie */
+.photo-cv {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.groupe2 {
+  display: flex;
+  gap: 2rem;
+}
+
+.groupe2 section {
+  flex: 1;
+}
+
+.partie1 ul {
+  text-align: justify;
+}
+
+.partie2 {
+  display: flex;
+  flex-direction: column; /* si tu veux tout l’un sous l’autre */
+  justify-content: left; /* centre verticalement */
+  align-items: left;      /* centre horizontalement */
+  height: 100%; /* optionnel mais utile pour remplir la box */
+}
+
+.pinterest div {
+  display: inline-block;           /* Pour que la largeur suive le texte */
+  border: 2px solid #747a65;
+  border-radius: 12px;
+  padding: 0.1rem;
+}
+
+
+.pinterest il {
+  display: inline-block;           /* Pour que la largeur suive le texte */
+  border: 2px solid #747a65;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
